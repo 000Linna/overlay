@@ -1,0 +1,51 @@
+/* для всех проектов*/
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    height: 100%;
+    background-image: url(https://img.freepik.com/free-photo/christmas-tree-with-cones-on-a-city-street-illuminated-with-a-garland_1153-3701.jpg?w=1380&t=st=1702642735~exp=1702643335~hmac=f4ed3810844a987741b8a65854237d1c8c27fa43f8378ec24be1eac3e394a9f7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(231, 41, 79, 0.255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+
+}
+
+
+.form {
+    padding: 20px;
+    background-color: lavenderblush;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+input {
+    width: 300px;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
